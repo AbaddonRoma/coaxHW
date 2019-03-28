@@ -33,11 +33,12 @@ let user = function() {
         })
 }
 
+// ** CALL FUNCTION BELOW
 // user();
 
 
 /**
- * FIRST
+ * SECOND
  */
 
 const urls = [
@@ -67,8 +68,14 @@ function gerUserNCommentsNPosts() {
     })
 };
 
-gerUserNCommentsNPosts();
+// ** CALL FUNCTION BELOW
+// gerUserNCommentsNPosts();
 
+
+
+/**
+ * THIRD
+ */
 var user3 = function() {
     return fetch('https://jsonplaceholder.typicode.com/users/1');
 }
@@ -98,6 +105,7 @@ async function getData() {
     }
 }
 
+// ** CALL FUNCTION BELOW
 // getData();
 
 
